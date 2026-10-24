@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>সকল প্রোডাক্টস - Rabix Style</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">Rabix Style</a> 
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">হোম</a></li>
+                    <li><a href="products.html">প্রোডাক্টস</a></li>
+                    <li><a href="cart.html">কার্ট</a></li>
+                    <li><a href="https://wa.me/8801706857829" target="_blank">যোগাযোগ</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><i class="fa fa-shopping-bag" style="font-size: 24px; color: #111;"></i></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="row" style="justify-content: space-between; margin: 30px 0 20px;">
+            <h2>সকল টি-শার্ট কালেকশন</h2>
+            <select style="padding: 6px 12px; border: 1px solid #ff523b; border-radius: 4px;">
+                <option>ডিফল্ট সর্টিং</option>
+                <option>দাম অনুযায়ী সাজান</option>
+                <option>জনপ্রিয়তা</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="T-Shirt">
+                <h4>Capital Soul Drop-Shoulder</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </div>
+                <p>৳ ৭৫০</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="T-Shirt">
+                <h4>Wave Streetwear Oversized Tee</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+                </div>
+                <p>৳ ৭২০</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="Polo">
+                <h4>Classic Black Polo</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                </div>
+                <p>৳ ৮৫০</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="T-Shirt">
+                <h4>Minimalist Graphic Tee</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </div>
+                <p>৳ ৬৫০</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-5.jpg" alt="T-Shirt">
+                <h4>Oversized Ash Grey Tee</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                </div>
+                <p>৳ ৭০০</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-6.jpg" alt="T-Shirt">
+                <h4>Solid Jet Black Tee</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </div>
+                <p>৳ ৬০০</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-7.jpg" alt="T-Shirt">
+                <h4>Olive Green Drop-Shoulder</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+                </div>
+                <p>৳ ৭৮০</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-8.jpg" alt="T-Shirt">
+                <h4>White Streetwear Oversized</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </div>
+                <p>৳ ৭৫০</p>
+            </div>
+        </div>
+    </div>
+
+    <!-----Footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Rabix Style</h3>
+                    <p>ফরিদপুর এবং সারা বাংলাদেশে প্রিমিয়াম কোয়ালিটির ওভারসাইজড, ড্রপ-শোল্ডার ও গ্রাফিক টি-শার্ট।</p>
+                </div>
+                <div class="footer-col-2">
+                    <h3>ডেলিভারি চার্জ</h3>
+                    <p>ফরিদপুর সিটির মধ্যে: ৳৮০<br>সারা বাংলাদেশ (বাইরে): ৳১৩০</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>দ্রুত লিংক</h3>
+                    <ul>
+                        <li><a href="index.html">হোম</a></li>
+                        <li><a href="cart.html">কার্ট</a></li>
+                        <li><a href="https://wa.me/8801706857829" target="_blank">হোয়াটসঅ্যাপ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>যোগাযোগ</h3>
+                    <ul>
+                        <li>+8801706857829</li>
+                        <li>ಫরিদপুর, বাংলাদেশ</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; 2026 Rabix Style. All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "200px"){
+                MenuItems.style.maxHeight = "0px";
+            } else {
+                MenuItems.style.maxHeight = "200px";
+            }
+        }
+    </script>
+</body>
+</html>
